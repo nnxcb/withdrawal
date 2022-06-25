@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.keyboard {
+  display: flex;
+  flex-direction: row;
+  width: 400px;
+}
+.key-left {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.key {
+  width: 90px;
+  height: 50px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 50px;
+  margin-bottom: 5px;
+}
+.key-right {
+  width: 100px;
+  margin-left: 5px;
+  display: flex;
+  flex-direction: column;
+}
+.withdrawal {
+  width: 90px;
+  height: 150px;
+  border: 1px solid;
+  text-align: center;
+  line-height: 150px;
+}
