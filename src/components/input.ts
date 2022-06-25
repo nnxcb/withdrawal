@@ -10,7 +10,7 @@ export default class Inputcomp {
   setInputVal(val: string) {
     this.inputVal = val;
   }
-  inputKey(e:(number | string)) {
+  inputKey(e:number | string) {
     let text: string = ''
     if (e === '.') {
       if (!this.inputVal) { // 首个字符串为小数点时前面添加一个0
